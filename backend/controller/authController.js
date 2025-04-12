@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 const jwtSecretKey =
-  "";
+  "fd24e55e877e98a12ee5292e4d21c8378f2b623cb018e5826bacea22a567aff2";
 const saltRounds = 10;
 
 const createJWTToken = (payload) => {
